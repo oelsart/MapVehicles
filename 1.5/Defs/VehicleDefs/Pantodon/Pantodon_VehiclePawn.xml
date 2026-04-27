@@ -42,6 +42,7 @@
 			<CargoCapacity>0</CargoCapacity>
 			<RepairRate>1.5</RepairRate>
 			<MaximumPayload>1400</MaximumPayload>
+			<AccelerationRate>0.04</AccelerationRate>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>
@@ -591,6 +592,7 @@
 					</li>
 				</extraOverlays>
 			</li>
+			<li Class="VanillaVehiclesExpanded.CompProperties_VehicleMovementController" MayRequire="OskarPotocki.VanillaVehiclesExpanded"/>
 		</comps>
 
 		<modExtensions>
@@ -603,7 +605,7 @@
 					<li>(0,6,0,15)</li>
 					<li>(6,6,6,15)</li>
 					<li>(0,0,6,0)</li>
-					<li>(0,15,6,15)</li>
+					<li>(0,16,6,16)</li>
 				</filledStructureCellRects>
 			</li>
 		</modExtensions>

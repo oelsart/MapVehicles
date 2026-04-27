@@ -41,6 +41,7 @@
 			<CargoCapacity>0</CargoCapacity>
 			<RepairRate>1.5</RepairRate>
 			<MaximumPayload>600</MaximumPayload>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.06</AccelerationRate>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>
@@ -401,6 +402,7 @@
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets/>
 			</li>
+			<li Class="VanillaVehiclesExpanded.CompProperties_VehicleMovementController" MayRequire="OskarPotocki.VanillaVehiclesExpanded"/>
 		</comps>
 
 		<modExtensions>
